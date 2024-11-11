@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".AdminViews.add_update"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingHorizontal="30dp">
+
+            <EditText
+                android:id="@+id/dogName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfiled_black_outline"
+                android:inputType="text"
+                android:paddingVertical="7dp"
+                android:paddingHorizontal="20dp"
+                android:textColor="#9a9a9a"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="128dp"
+                android:hint="Dog's Name"
+                android:layout_marginBottom="20dp"/>
+
+            <EditText
+                android:id="@+id/dogBreed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfiled_black_outline"
+                android:inputType="text"
+                android:paddingVertical="7dp"
+                android:paddingHorizontal="20dp"
+                android:textColor="#9a9a9a"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="128dp"
+                android:hint="Breed"
+                android:layout_marginBottom="20dp"/>
+
+            <EditText
+                android:id="@+id/dogAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfiled_black_outline"
+                android:inputType="text"
+                android:paddingVertical="7dp"
+                android:paddingHorizontal="20dp"
+                android:textColor="#9a9a9a"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="128dp"
+                android:hint="Age"
+                android:layout_marginBottom="20dp"/>
+
+            <EditText
+                android:id="@+id/dogBirthdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfiled_black_outline"
+                android:inputType="text"
+                android:paddingVertical="7dp"
+                android:paddingHorizontal="20dp"
+                android:textColor="#9a9a9a"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="128dp"
+                android:hint="Birthdate"
+                android:layout_marginBottom="20dp"/>
+
+            <EditText
+                android:id="@+id/dogGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfiled_black_outline"
+                android:inputType="text"
+                android:paddingVertical="7dp"
+                android:paddingHorizontal="20dp"
+                android:textColor="#9a9a9a"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="128dp"
+                android:hint="Gender"
+                android:layout_marginBottom="20dp"/>
+
+            <EditText
+                android:id="@+id/dogWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfiled_black_outline"
+                android:inputType="number"
+                android:paddingVertical="7dp"
+                android:paddingHorizontal="20dp"
+                android:textColor="#9a9a9a"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="128dp"
+                android:hint="Weight"
+                android:layout_marginBottom="20dp"/>
+
+            <EditText
+                android:id="@+id/dogHeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfiled_black_outline"
+                android:inputType="number"
+                android:paddingVertical="7dp"
+                android:paddingHorizontal="20dp"
+                android:textColor="#9a9a9a"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="128dp"
+                android:hint="Height"
+                android:layout_marginBottom="20dp"/>
+
+
+
+            <EditText
+                android:id="@+id/dogVac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfiled_black_outline"
+                android:inputType="text"
+                android:paddingVertical="7dp"
+                android:paddingHorizontal="20dp"
+                android:textColor="#9a9a9a"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="128dp"
+                android:hint="Vaccinated or not"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:id="@+id/addBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/round_corner"
+                android:backgroundTint="#3ddc84"
+                android:paddingVertical="10dp"
+                android:layout_marginHorizontal="5dp"
+                android:text="Add New Dog"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:elevation="2dp"
+                android:translationZ="1dp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".footer"
+    android:background="#EEEEEE"
+    android:orientation="horizontal"
+    android:paddingVertical="19dp">
+
+    <ImageView
+        android:id="@+id/iconNotif"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:src="@drawable/icon_home"
+        android:layout_weight="1"
+        android:layout_gravity="start"/>
+
+    <ImageView
+        android:id="@+id/iconMsg"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:src="@drawable/icon_msg"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:id="@+id/iconLoc"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:src="@drawable/icon_loc"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:id="@+id/iconProf"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:src="@drawable/icon_profile"
+        android:layout_weight="1"/>
+
+</LinearLayout>

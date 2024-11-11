@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Register"
+        tools:layout_editor_absoluteY="13dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:background="#F3F1E6">
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/registerEmail"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="396dp"
+            android:layout_marginStart="48dp"
+            android:minHeight="48dp"
+            android:hint="Email"
+            android:width="800px" />
+
+    <ImageView
+            android:layout_width="317dp"
+            android:layout_height="345dp"
+            app:srcCompat="@drawable/app_logo"
+            android:id="@+id/registerLogo"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="36dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="4dp" />
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/registerPassword"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="484dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="48dp"
+            android:minHeight="48dp"
+            android:hint="Password"
+            android:width="800px" />
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/registerUsername"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="312dp"
+            android:layout_marginStart="48dp"
+            android:importantForAutofill="no"
+            android:minHeight="48dp"
+            android:hint="Username"
+            android:width="800px" />
+
+    <TextView
+            android:text="Start your Paw Pal Journey 🐾"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/registerLoginButton"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="656dp"
+            android:layout_marginStart="188dp"
+            android:textSize="12sp" />
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/registerPasswordConfirm"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="580dp"
+            android:layout_marginStart="48dp"
+            android:importantForAutofill="no"
+            android:minHeight="48dp"
+            android:hint="Confirm Password"
+            android:width="800px" />
+
+    <TextView
+            android:text="Register your Account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="272dp"
+            android:layout_marginStart="48dp"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+    <Button
+            android:text="@string/register_button"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:id="@+id/registerButton"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="680dp"
+            android:layout_marginStart="48dp"
+            android:textSize="18sp"
+            android:backgroundTint="@color/gray" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

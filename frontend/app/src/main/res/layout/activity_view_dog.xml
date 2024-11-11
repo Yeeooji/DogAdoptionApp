@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".UserViews.ViewDog"
+        android:background="@color/beige"
+        style="bold">
+
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewDogName"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="352dp"
+            android:layout_marginStart="32dp"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewDogBreed"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="384dp"
+            android:layout_marginStart="32dp"
+            android:textSize="16sp" />
+
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewDogSex"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="436dp"
+            android:layout_marginStart="32dp"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewDogAge"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="436dp"
+            android:layout_marginStart="120dp"
+            style="bold"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewDogWeight"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:gravity="center"
+            android:layout_marginTop="436dp"
+            android:layout_marginStart="208dp"
+            style="bold"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+
+    <TextView
+            android:text="Sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9"
+            android:gravity="center"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="472dp"
+            android:layout_marginStart="56dp"
+            android:textColor="#979797" />
+
+    <TextView
+            android:text="Age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="472dp"
+            android:gravity="center"
+            android:layout_marginStart="138dp"
+            android:textColor="#979797" />
+
+    <TextView
+            android:text="Weight"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="472dp"
+            android:layout_marginStart="217dp"
+            android:textColor="#979797" />
+
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewDogVaccine"
+            android:gravity="center"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="436dp"
+            android:layout_marginStart="296dp"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+
+    <TextView
+            android:text="Vaccine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView13"
+            android:gravity="center"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="472dp"
+            android:layout_marginStart="303dp"
+            android:textColor="#979797" />
+
+    <ImageView
+            android:layout_width="293dp"
+            android:layout_height="325dp"
+            app:srcCompat="@drawable/blurred_corner"
+            android:id="@+id/viewDogImage"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="48dp" />
+
+    <Button
+            android:text="Adopt Me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/AdoptMeBtn"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="680dp"
+            android:layout_marginStart="148dp"
+            android:textSize="16sp"
+            android:backgroundTint="@color/gray" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
